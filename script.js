@@ -59,6 +59,6 @@ for (var i = 0; i < names.length; i++) {
   if (names[i].charAt(1).toLowerCase() === 'j') {
     speak_hi.say_hi();
   } else {
-    speak(names[i]);
+    speak_bye.say_good_bye();
   }
 }
