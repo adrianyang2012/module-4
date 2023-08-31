@@ -56,8 +56,8 @@ for (var i = 0; i < names.length; i++) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (names[i].charAt(0).toLowerCase() === 'j') {
-    speak_hi.say_hi(names[i]);
-  } else {
     speak_bye.say_good_bye(names[i]);
+  } else {
+    speak_hi.say_hi(names[i]);
   }
 }
